@@ -54,7 +54,16 @@ body {
          padding: 20px;
      }
 }
-
+.wrapper-vv {
+     @include animation(0.2s ease-in);
+    transition: all 0.3s ease-in-out;
+}
 .is-open {
      transform:translateX(-300px);
+    transition: all 0.3s ease-in-out;
+     @include animation(0.2s ease-in);
+}
+.site-title {
+     margin-top:0px;
+     padding-top:20px;
 }

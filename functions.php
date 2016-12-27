@@ -18,6 +18,6 @@ function child_scripts_menu (){
 
 }
 add_action('wp_print_scripts', 'child_scripts_menu', 100);
-
+add_filter('show_admin_bar', '__return_false');
 
 ?>
